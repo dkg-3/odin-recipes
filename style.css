@@ -3,8 +3,34 @@ h1
     background-color: beige;
     color: black;
     font-weight: bolder;
+    display: block;
+    text-align: center;
 }
 .home-list  
 {
-    background-color: rgb(151, 42, 42);}    
-    
+    background-color: rgb(212, 226, 233);
+    font-size: 12px
+
+}    
+    p {background-color: beige;}
+
+    .ingredients
+    {
+        display: inline-block;
+        background-color: beige;
+        font-family: "fantasy" sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        color: rebeccapurple;
+        height: 300px;
+        width: 300px;
+    }
+    .steps
+    {
+        display: block;
+        background-color: beige;
+        font-family: "fantasy" sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        color: rebeccapurple;
+    }
